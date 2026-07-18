@@ -33,10 +33,10 @@ I’m Bryant — a coder, golfer, and high‑school sophomore who loves building
 
 ## My Socials
 
-My socials can be found [here](https://coder230-dev.github.io/links)!
+My socials can be found [here](https://coder230-dev.github.io/coder230-dev/pages/links)!
 
 ## Want to create a Bluebird Account to get the full experience throughout my projects?
 
 You’re welcome to sign up and get the full experience across my projects.  
-Click [here](https://coder230-dev.github.io/accounts/signup) to create an account.  
+Click [here](https://coder230-dev.github.io/coder230-dev/pages/accounts/signup) to create an account.  
 Accounts are hosted using a Supabase database — accounts may be removed or banned if necessary.
