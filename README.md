@@ -4,35 +4,39 @@ I’m Bryant — a coder, golfer, and high‑school sophomore who loves building
 
 ## My Goals
 
-🙋‍♂️ **Create Modern Apps so Everyone Can Use** - getting my projects (or products) to everyone will mean a lot to me
+🙋‍♂️ **Build Modern Apps for Everyone** — creating tools that genuinely help people  
+😎 **Design Easy‑to‑Understand UI** — clean, simple interfaces make navigation effortless  
+🌎 **Make an Impact** — I want to help shape the next generation of apps and coding  
 
-😎 **Easy UI to Understand** - it is very important for everyone to navigate & understand throughout my projects
+## Languages / Environments I Use
 
-🌎 **Make an Impact** - hopefully change the next generation of coding & apps.
-
-## Languages / Environments I am using
-
-- JavaScript (mainly used throughout my projects)
-- Node.js (Electron)
-- HTML / CSS (Web Dev)
-- macOS · [VS Code](https://code.visualstudio.com/) · [GitHub](https://github.com/)
+- JavaScript (primary)  
+- Node.js / Electron  
+- HTML / CSS  
+- macOS · [VS Code](https://code.visualstudio.com/) · [GitHub](https://github.com/)  
 
 ## My Projects that I Have Done / In Progress
 
-🖥️ **[Bluebird Browser](https://github.com/coder230-dev/bluebird_browser)** - Simple, all in one browser that is easy to understand. Right now, the project is on the early stages, and will get updates at least every month. There is more things to be done with this browser. (My favorite project i have done)
+🖥️ **[Bluebird Browser](https://github.com/coder230-dev/bluebird_browser)** — A simple, all‑in‑one browser designed to be easy to understand. Currently in early development with monthly updates planned. There’s a lot more coming — this is my favorite project so far.
 
-🌦️ **Bluebird Weather** - currently a private project due to terms by some APIs that were used. A modern, state of the art design that gives you info for any weather nerds (and all people too).
+🌦️ **Bluebird Weather** — A private project due to API terms. A modern, state‑of‑the‑art weather app designed for both weather nerds and everyday users.
 
 ## What My Next Projects Are
 
-👨‍💻 **PulseWrite Code Editor** - a code editor that uses Monaco Editor, and will contrast with the editors which exists. *I have created a version of this editor already, but I will create a better, functional version of this app.*
+👨‍💻 **PulseWrite Code Editor** — A custom code editor built on Monaco Editor. I’ve already created a basic version, but I’m working on a more polished, fully functional release.
 
-⌨️ **PulseWrite Terminal** - a modern terminal that won't look like Command Prompt (Windows) or Terminal (Mac), but a customizable, modern, and safe terminal environment.
+⌨️ **PulseWrite Terminal** — A modern, customizable terminal environment — not Command Prompt or macOS Terminal, but something cleaner and more user‑friendly.
 
-📱 **Mobile Apps of My Projects** - a Bluebird Browser app is planned by the end of Jan 2027 (or sooner)
+📱 **Mobile Apps of My Projects** — A Bluebird Browser mobile app is planned for release by January 2027 (or sooner).
 
-*Although there may be more projects in my roadmap, there are some that I am 99.99% sure I will work on the future*
+*More projects are on my roadmap, but these are the ones I’m 99.99% sure I’ll be building.*
 
 ## My Socials
 
-A GitHub Pages landing site is coming soon — stay tuned 👀
+My socials can be found [here](https://coder230-dev.github.io/links)!
+
+## Want to create a Bluebird Account to get the full experience throughout my projects?
+
+You’re welcome to sign up and get the full experience across my projects.  
+Click [here](https://coder230-dev.github.io/accounts/signup) to create an account.  
+Accounts are hosted using a Supabase database — accounts may be removed or banned if necessary.
