@@ -145,12 +145,43 @@
         "name": "Yosha Dehe Golf Course",
         "locationDet": "Yolo County",
         "cityState": "Capay, CA",
-        "opinion": "Love this course. Beautiful fairways, scenery, and experients. No matter how long it takes to get there, I will always enjoy it.",
+        "opinion": "Love this course. Beautiful fairways, scenery, and experiences. No matter how long it takes to get there, I will always enjoy it.",
         "lastPlayed": "N/A",
         "rating": 9.6,
         "golfCourseLink": "https://yoshadehecolfclub.com",
         "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZLnrUS9pStDzRjkwpYofd3ZhhPrQ_FlFIeyVtjaVfNsJyDsXwDy0wgHX&s=10"
       }
     ]
-  }
+  },
+  "spotify-playlists": [
+    {
+      "name": "the blend",
+      "desc": "a mix of different genres, a bit of nostalgia — a playlist you’ll love and enjoy :)",
+      "iframeLink": "https://open.spotify.com/embed/playlist/1a8aVQJK14O50ysieDYzZy?utm_source=generator&si=99493fd0b8c74044",
+      "link": "https://open.spotify.com/playlist/1a8aVQJK14O50ysieDYzZy?si=24f0637956ee4907&pt=2ce00dbbe94ff0b7c996c7ff02f4b480"
+    }
+  ],
+  "about_me": [
+    {
+      "text": "As the name suggests, I'm in high school and currently am a sophmore (10th grader). I am aiming for a bright future based on my preformance. By that, I have all A's in my classes, and thats starting my 7th grade year."
+    },
+    {
+      "header": "My Academic Journey",
+      "text": "I am a hardworking, focused, independent (had to add it up there) student who really cares about my future. My goal is to master in <b>Electrical Enginnering</b>, with alternatives being <b>Coding and Computer Enginnering</b>, <b>Financing</b>, and <b>Locomotive Enginnering</b>. During the 2025-26 school year, I have mastered a perfect 4.0 GPA, with plans to maintain it. I am also taking AP classes starting my sophmore year, with both <b>AP Seminar</b> and <b>AP World History</b>, showing my future colleges that I am going to a more advance rigor and maybe getting a semester off. Speaking of colleges, right now, I am hoping to getting into <b>UC Davis</b> because of the close proximinity and intellegence. My alternatives colleges are Sacramento State University, Boise State University, UC Merced, Stanford University, and UC San Diego."
+    },
+    {
+      "header": "My Everyday Life",
+      "text": "When the school year is on, there is nothing unusual. Just getting up, getting ready, and drive the 15 minutes (well worth it) through a freeway to my high school. From there, it's just everyday life. And to be honest, I prefer being at school. Going home, I love doing my homework first thing I arrive. Its just a habit. The rest of the day, I spend it scrolling through Instagram, TikTok, or watching videos on YouTube. I sometimes play video games too, but rarely. Once that's finish, it's time for bed and get to do this the next day (unless it's Friday). When it's the weekend, I love staying out of the house and exploring (and keep coming back) what Sacramento offers, like Arden Fair Mall, Historic Folsom (and Folsom), Downtown Sacramento, and more. At anytime during my free time, I spend it on my phone, coding, watching TV, playing games, and walking. Oh, and also during summer time, everyday is a weekend for me.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWOQ4SF0DmU6hUCBPZ9ppxntbo1PFwuPbKv89wCQZ6RQ&s=10"
+    },
+    {
+      "header": "My Golden 'Downtown Sac.' Era",
+      "text": "When I first explored Downtown Sacramento in June 13, 2019 (yes, I still know the date), I was mindblown that I haven't heard this place before. <b>DOCO</b> was the first place I've visited and I loved it the first time I steped in. The best part (for me), Macy's!! I absolutly loved that store. It was huge, and had things that other Macy's (Arden Fair) have. I've been coming every 1-2 weeks, hot or cold, sunny or foggy, to the same place. I still remember the old resturants there, like <b>'The Pizza Press'</b>. There wasn't any VR or lazer tag there, nor <b>Hot Dog On A Stick</b>. Unfortuanlly, the store closed on March 23, 2025 and miss it a lot. I've visited there a year after the closure, and haven't went back since. However, I am going to Arden a lot.",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3KaoI7MQSaWb6pWjT6rOVYFrKcYgkB61DGDWgmsAR_g&s=10"
+    },
+    {
+      "header": "Right Now...",
+      "text": "I love coding and working academically to acheive my dreams. I am keeping everything, including my life, organized. I can't wait what my future holds. For now, have to wait."
+    }
+  ]
 }
