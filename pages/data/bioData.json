@@ -1,0 +1,156 @@
+{
+  "featured_content": [
+    {
+      "icon": "beach_access",
+      "title": "Vacation in Boise!",
+      "content": "See my vacation in my story highlights on IG. (linked below)",
+      "tags": [{ "color": "#c6b200", "label": "Summer 2026" }],
+      "links": [
+        {
+          "label": "IG Highlights of my Vacay.",
+          "desc": "* Must be following to see.",
+          "url": "https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MzcwMTM3NDI0MjMxNDU5?story_media_id=3922566942301223962&igsh=NTc4MTIwNjQ2YQ=="
+        }
+      ],
+      "attached": [{ "type": "image" }]
+    },
+    {
+      "title": "apple"
+    }
+  ],
+
+  "images": [
+    "images/IMG_5357.png",
+    "images/IMG_5428.png",
+    "images/IMG_5431.png",
+    "../website/Images/static-camera-no-perspective-shift-or-zoom-keep-th.mp4"
+  ],
+
+  "socials": [
+    {
+      "label": "Instagram",
+      "username": "bryant_san230",
+      "url": "https://instagram.com/bryant_san230",
+      "icon": "instagram",
+      "tags": [
+        { "label": "Prefered", "bg": "gold", "color": "black" },
+        { "label": "Most Used", "bg": "purple", "color": "white" }
+      ],
+      "smallTag": {
+        "bg": "linear-gradient(to right, #F58529, #DD2A7B, #8134AF, #515BD4)",
+        "txt": "white"
+      }
+    },
+    {
+      "label": "TikTok",
+      "username": "@bryant230sacramento",
+      "url": "https://tiktok.com/@bryant230sacramento",
+      "icon": "tiktok",
+      "tags": [{ "label": "More Posts", "bg": "green", "color": "white" }],
+      "smallTag": {
+        "bg": "linear-gradient(to right, #69C9D0, #EE1D52)",
+        "txt": "white"
+      }
+    },
+    {
+      "label": "Threads",
+      "username": "bryant_san230",
+      "url": "https://threads.com/bryant_san230",
+      "icon": "threads",
+      "tags": [
+        {
+          "label": "See my Threads on my Instagram Story",
+          "bg": "black",
+          "color": "white"
+        }
+      ],
+      "smallTag": {
+        "bg": "light-dark(white, black)",
+        "txt": "light-dark(black, white)"
+      }
+    },
+    {
+      "label": "GitHub",
+      "username": "coder230-dev",
+      "url": "https://github.com/coder230-dev",
+      "icon": "github",
+      "tags": [
+        {
+          "label": "Bluebird Browser Now Public",
+          "bg": "cyan",
+          "color": "black"
+        }
+      ],
+      "smallTag": {
+        "bg": "light-dark(white, #0D1117)",
+        "txt": "light-dark( #24292F, #C9D1D9)"
+      }
+    },
+    {
+      "label": "X (Twitter)",
+      "username": "bryant_san230",
+      "url": "https://x.com/bryant_san230",
+      "icon": "x-twitter",
+      "tags": [],
+      "smallTag": {
+        "bg": "light-dark(white, black)",
+        "txt": "light-dark( #1DA1F2, #E7E9EA )"
+      }
+    },
+    {
+      "label": "Xbox",
+      "username": "The230Best",
+      "url": "https://www.xbox.com/en-US/play/user/The230Best",
+      "icon": "xbox",
+      "tags": [{ "label": "Gaming", "bg": "green", "color": "white" }],
+      "smallTag": {
+        "bg": "#107C10",
+        "txt": "white"
+      }
+    }
+  ],
+  "golf_courses": {
+    "played": [
+      {
+        "name": "Bing Maloney Golf Course",
+        "locationDet": "Freeport Blvd, after Florin Rd. if going north.",
+        "cityState": "Sacramento, CA",
+        "opinion": "My first real time I played golf at a golf course. It is peaceful and would love to play again. Although I played at this golf course a lot when I first came here, I havent't played again ever since.",
+        "lastPlayed": "N/A",
+        "rating": 7.3,
+        "golfCourseLink": "https://bingmaloney.com",
+        "imageHeader": "https://www.bingmaloney.com/files/2012/10/executive-9-page-feature.jpg"
+      },
+      {
+        "name": "Bartley Cavanaugh Golf Course",
+        "locationDet": "Freeport Blvd, across from Delta Shores, seperated by I-5",
+        "cityState": "Sacramento (Freeport), CA",
+        "opinion": "My local golf course! I love playing at this course and have been playing ever since. Great service and great conditions.",
+        "lastPlayed": "N/A",
+        "rating": 9.5,
+        "golfCourseLink": "https://bartleycavanaugh.com",
+        "imageHeader": "https://www.bartleycavanaugh.com/files/2019/02/1500x500-bc-2.jpg"
+      },
+      {
+        "name": "Haggin Oaks Golf Course (Arcade Creek)",
+        "locationDet": "Fulton Ave, quick exit from BUS-80.",
+        "cityState": "Sacramento, CA",
+        "opinion": "The parent golf course of Bartley Cavanaugh, Bing Maloney, and William Land. Lives up to it's hype! Very peaceful, relaxing, and I would highly recommend.",
+        "lastPlayed": "N/A",
+        "rating": 8.6,
+        "golfCourseLink": "https://hagginoaks.com",
+        "imageHeader": "https://www.hagginoaks.com/wp-content/uploads/2012/10/arcade-creek-page-feature.jpg"
+      },
+      {
+        "name": "Yosha Dehe Golf Course",
+        "locationDet": "Yolo County",
+        "cityState": "Capay, CA",
+        "opinion": "Love this course. Beautiful fairways, scenery, and experients. No matter how long it takes to get there, I will always enjoy it.",
+        "lastPlayed": "N/A",
+        "rating": 9.6,
+        "golfCourseLink": "https://yoshadehecolfclub.com",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZLnrUS9pStDzRjkwpYofd3ZhhPrQ_FlFIeyVtjaVfNsJyDsXwDy0wgHX&s=10"
+      }
+    ]
+  }
+}
