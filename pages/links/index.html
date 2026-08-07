@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bryant Sandoval - bryant_san230</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/IPELogo2026.png" type="image/x-icon">
     <link rel="stylesheet" id="icon_href"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
     <!-- <link rel="stylesheet" id="icon_href"
@@ -21,69 +22,141 @@
 <body>
     <div class="background-container">
         <img src="images/IMG_5357.png" alt="">
-        <!-- <video src="../website/Images/static-camera-no-perspective-shift-or-zoom-keep-th.mp4" autoplay muted
-            loop></video> -->
     </div>
     <div class="wrapper">
         <div class="container">
             <nav>
-                <a href="../" referrerpolicy="origin">
-                    <img src="../website/Images/IMG_2761 copy.PNG" alt="Main logo with a leaf.">
-                </a>
-                <span>
-                    <button id="feedback-btn" class="material-symbols-rounded" title="Give Feedback">feedback</button>
-                    <button id="more-btn" class="material-symbols-rounded" title="More Actions">more_vert</button>
-                </span>
+                <div class="header">
+                    <img src="images/IPELogo2026.png"
+                        alt="A colorful nature-themed logo with layered green, blue, and pink leaves forming a plant shape, a red apple above them, and a red hummingbird facing the apple on a dark blue background."
+                        aria-label="A colorful nature-themed logo with layered green, blue, and pink leaves forming a plant shape, a red apple above them, and a red hummingbird facing the apple on a dark blue background.">
+                    <span class="name-container">
+                        <b>Bryant Sandoval</b>
+                        <p class="pfp-handle">@bryant_san230</p>
+                    </span>
+                </div>
+                <div>
+                    <button class="nav-btn" onclick="openReadMe()">View GitHub README</button>
+                </div>
             </nav>
-            <main>
-                <div class="connected-sect">
-                    <div class="profile-overview">
-                        <img class="pfp"
-                            src="https://scontent.cdninstagram.com/v/t51.82787-19/727680948_17870433282621100_3360204469075522885_n.jpg?_nc_cat=104&ccb=7-5&_nc_sid=bf7eb4&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLnd3dy4xMDgwLkMzIn0%3D&_nc_ohc=SnQ1XHyeAlcQ7kNvwHmBCTk&_nc_oc=AdqyI38npem3jtHTThBOO0STNUs019cI9D44wKjNOnytgCwFP0wkoZDkW1opjWPF7glD4dqws_u8YnbSUDd2foW1&_nc_zt=24&_nc_ht=scontent.cdninstagram.com&_nc_gid=pkYaU1Hq1d8kMk02a3JXkA&_nc_ss=7b6a8&oh=00_Af-BdDjk_XK1Xll_p7FdCvXxwEJoK63PYsrWTHutgM2m_g&oe=6A4725CB"
-                            alt="Me infront of a shaded bench at a lake.">
-                        <div>
-                            <h1 class="main-header">Bryant Sandoval</h1>
-                            <p class="bio">
-                                Golfer | Coder | Student (Almost Sophomore) | Class of ’29 | Train guy 🚂
-                            </p>
+            <aside class="sidebar" tabindex="0">
+                <b class="sidebar-group">Personal</b>
+                <button class="aside-btn active" data-page="overview">
+                    <i translate="no" class="material-symbols-rounded">home</i>
+                    <span>Overview</span>
+                </button>
+                <button class="aside-btn" data-page="about">
+                    <i translate="no" class="material-symbols-rounded">article_person</i>
+                    <span>About Me</span>
+                </button>
+                <button class="aside-btn" data-page="interests">
+                    <i translate="no" class="material-symbols-rounded">favorite</i>
+                    <span>Interests</span>
+                </button>
+
+                <!-- GROUP: Social -->
+                <b class="sidebar-group">Social</b>
+                <button class="aside-btn" data-page="socials">
+                    <i translate="no" class="material-symbols-rounded">share</i>
+                    <span>Socials</span>
+                </button>
+                <button class="aside-btn" data-page="music">
+                    <i translate="no" class="material-symbols-rounded">music_note_2</i>
+                    <span>What I'm Listening To?</span>
+                </button>
+
+                <!-- GROUP: Projects & Hobbies -->
+                <b class="sidebar-group">Projects & Hobbies</b>
+                <!-- <button class="aside-btn" data-page="coding">
+                    <i translate="no" class="material-symbols-rounded">computer</i>
+                    <span>My Coding Journey</span>
+                </button> -->
+                <button class="aside-btn" data-page="golf">
+                    <i translate="no" class="material-symbols-rounded">golf_course</i>
+                    <span>Golf Courses Played</span>
+                </button>
+
+            </aside>
+
+            <main id="main-cont">
+                <section id="overview-screen" class="section-screen open">
+                    <div class="no-bg-featured">
+                        <div id="featured" class="featured-card"></div>
+                    </div>
+                    <div class="overview-main" style="position: relative;">
+                        <article id="overivew-content"></article>
+                        <div class="small-socials-holder">
+                            <div id="socials-small-overview"></div>
                         </div>
                     </div>
-
-                    <div id="featured" class="featured-card">
-
+                </section>
+                <section id="about-screen" class="section-screen">
+                    <h1>About Me</h1>
+                    <div class="quick-bio">
+                        <div style="display: flex; align-items: center; gap: 12px;">
+                            <i class="material-symbols-rounded" style="font-size: 2.3rem;">article_person</i>
+                            <div>
+                                <b>Quick Introduction (Bio)</b>
+                                <p>High School Sophomore, ⛳️ Golfer, 💻 Coder</p>
+                                <p>trying to focus to become successful :)</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <h3>Socials</h3>
-                <section id="socials">
-
+                    <div id="about-me-populated-cont"></div>
+                    <div class="ask-questions">
+                        <b>Have any questions for me?</b>
+                        <p>Ask away! Just try not to ask way too personal questions.</p>
+                        <button class="action-btn primary">
+                            Ask a Question <i class="material-symbols-rounded arrow">arrow_forward</i>
+                        </button>
+                        <button class="action-btn">
+                            About Me <i class="material-symbols-rounded arrow">arrow_forward</i>
+                        </button>
+                    </div>
                 </section>
-                <!-- <h3>Newsroom</h3>
-                <section id="news">
-
+                <section id="interests-screen" class="section-screen">
+                    <h1>My Interests & Favorite Hobbies</h1>
+                    <div id="hobbies-cont"></div>
+                    <div class="ask-questions">
+                        <b>Got any interests to recommend?</b>
+                        <p>I am always open to recommendations.</p>
+                        <button class="action-btn primary">
+                            Ask A Question
+                            <i class="material-symbols-rounded">arrow_forward</i>
+                        </button>
+                    </div>
                 </section>
-                <h3>Other Links</h3>
-                <section id="more-links">
-
-                </section> -->
-
-                <div class="socials-overview">
-                    <a href="https://instagram.com/bryant_san230" target="_blank" title="Instagram"
-                        class="fa-brands fa-instagram"></a>
-                    <a href="https://tiktok.com/bryant230sacramento" target="_blank" title="TikTok"
-                        class="fa-brands fa-tiktok"></a>
-                    <a href="https://threads.com/bryant_san230" target="_blank" title="Threads"
-                        class="fa-brands fa-threads"></a>
-                    <a href="" target="_blank" title="Spotify" class="fa-brands fa-spotify"></a>
-                    <a href="https://github.com/coder230-dev" target="_blank" title="GitHub"
-                        class="fa-brands fa-github"></a>
-                    <a href="https://x.com/bryant_san230" target="_blank" title="X (Twitter)"
-                        class="fa-brands fa-x-twitter"></a>
-                </div>
+                <section id="socials-screen" class="section-screen">
+                    <h1>My Socials</h1>
+                    <p>You know, it never hurts to talk.</p>
+                    <div id="socials"></div>
+                    <p>
+                        <center>* All logos go to their respected trademark.</center>
+                    </p>
+                </section>
+                <section id="music-screen" class="section-screen">
+                    <h1>What Am I Listening To?</h1>
+                    <p>Song of the week, my top playlists, songs, and albums</p>
+                    <div class="card" style="display: block;">
+                        <h2>This Week's Song of the Week by bryant_san230...</h2>
+                        <div id="song-of-the-week"></div>
+                        <p>* Resets every Monday at 12PM UTC Time</p>
+                    </div>
+                    <h2>My Top Songs, Albums, and Playlists</h2>
+                    <div id="top-music">
+                    </div>
+                </section>
+                <section id="golf-screen" class="section-screen">
+                    <h1>Golf Courses I've Played At</h1>
+                    <div id="courses-displayed" class="courses"></div>
+                    <h2>Golf Courses In My Wish List</h2>
+                    <div id="future-courses" class="courses"></div>
+                </section>
             </main>
         </div>
     </div>
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </body>
 
 </html>

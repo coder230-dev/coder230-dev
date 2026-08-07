@@ -98,6 +98,17 @@
       }
     },
     {
+      "label": "Spotify",
+      "username": "Bryant",
+      "url": "https://open.spotify.com/user/312d5rhtjtoy4wc5dicly5iobhxq?si=ef06a16d14d94a6c",
+      "icon": "spotify",
+      "tags": [{ "label": "Music", "bg": "green", "color": "white" }],
+      "smallTag": {
+        "bg": "#1DB954",
+        "txt": "white"
+      }
+    },
+    {
       "label": "Xbox",
       "username": "The230Best",
       "url": "https://www.xbox.com/en-US/play/user/The230Best",
@@ -192,10 +203,10 @@
       },
       {
         "name": "Cliffhangers Golf Course",
-        "locationDet": "a couple miles out of Springfield",
+        "locationDet": "52 miles out of Springfield",
         "cityState": "Hollister, MO",
         "golfCourseLink": "https://bigcedar.com/golf/cliffhangers-golf-course/",
-        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3pBuCHqYb5ayjxBi_zK7lDW0DpdROe5fFizJ8ZljeQ&s=10"
+        "imageHeader": "https://lh3.googleusercontent.com/grass-cs/ACvplmMjEFsvBsj9szSrMV82-UC0JwyuHiCfmCsauzP8kO15l3AGr4yzciX_OJ6sVkW6N64l7wlfaNkFdCzhOtEWM-gqme0W6DvdneGkAVXTpclfJHrWQTE6jiB6dAtr2dEyAb1I09308l1KyHcT=w289-h312-n-k-no"
       },
       {
         "name": "Trail Creek Golf Course",
@@ -218,26 +229,26 @@
   "music": {
     "musicOfTheWeek": [
       {
-        "weekOf": "8/3/2026",
+        "weekOf": "2026-08-03",
         "embedUrl": "https://open.spotify.com/embed/track/3xwMjQriBVW0OGEvNKo9c0?si=c74743813e5a4f06"
       },
       {
-        "weekOf": "8/10/2026",
+        "weekOf": "2026-08-10",
         "embedUrl": "https://open.spotify.com/embed/track/5DZOKNtaoVEssXu9ltcMjx?utm_source=generator&si=ccec83dbdb0c46ef",
         "desc": "My favorite song (along with <em>hate that i made you love me) from Ariana Grande's latest album <em>petal</em>."
       },
       {
-        "weekOf": "8/17/2026",
+        "weekOf": "2026-08-17",
         "embedUrl": "https://open.spotify.com/embed/track/3s4U7OHV7gnj42VV72eSZ6?si=d337566feb1f45b9",
         "desc": "There is something adicting with this song to me because the moment I started hearing this, I couldn't stop."
       },
       {
-        "weekOf": "8/24/2026",
+        "weekOf": "2026-08-24",
         "embedUrl": "https://open.spotify.com/embed/track/1dNC1ccczsR8bbZuwOP0Z2?si=09570e586f1342b1",
         "desc": "Decided to explore new songs on Insta and found this."
       },
       {
-        "weekOf": "8/31/2026",
+        "weekOf": "2026-08-31",
         "embedUrl": "https://open.spotify.com/embed/track/3oTuTpF1F3A7rEC6RKsMRz?si=46052980c2f2470d",
         "desc": "Stumbled on this song while finding <em>Essence</em>. Haven't thought a lot about it until I saw it on <em>Today's Top Hits</em>."
       }
@@ -251,10 +262,6 @@
     ]
   },
   "overviewBioInfo": [
-    {
-      "mainHeader": "A High School Student Who Wants to Succeed",
-      "text": "(while making the most of it too)"
-    },
     {
       "mainHeader": "A High School Student Who Wants to Succeed",
       "text": "(while making the most of it too)"
