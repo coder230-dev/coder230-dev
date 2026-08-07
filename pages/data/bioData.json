@@ -151,14 +151,137 @@
         "golfCourseLink": "https://yoshadehecolfclub.com",
         "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqZLnrUS9pStDzRjkwpYofd3ZhhPrQ_FlFIeyVtjaVfNsJyDsXwDy0wgHX&s=10"
       }
+    ],
+    "future": [
+      {
+        "name": "Teal Bend Golf Club",
+        "locationDet": "Near SMF Airport",
+        "cityState": "Sacramento, CA",
+        "opinion": "In my bucket list for about 2 years",
+        "golfCourseLink": "http://www.tealbendgolf.com/",
+        "imageHeader": "https://lh3.googleusercontent.com/grass-cs/ACvplmNP8JOf47VleTGCoo_U_z4Nskz0YWhI3Otth59bNXF6CriYaDha0lq7Ou40yDDdY_dqFiO_Yof6qP3_UnHOFwo6-7CPXfw4sNkI6A5hOjugfgzSnNhpLS5Px_QYBFLNnW0JaD6U=w289-h312-n-k-no"
+      },
+      {
+        "name": "Cherry Island Golf Course",
+        "locationDet": "In Sacramento County",
+        "cityState": "Elverta, CA",
+        "golfCourseLink": "http://www.golfcherryisland.com/",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2uZCbqXmTmxlMCwvVdwkIIQqYS18HsCgC0D60rSng&s"
+      },
+      {
+        "name": "Antelope Greens Golf Course",
+        "locationDet": "across Cherry Island",
+        "cityState": "Antelope, CA",
+        "golfCourseLink": "http://antelopegreensgolf.com//",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0AD6tfLAbaz165iM1q_X-VROFuKtG0wWGCygdyS7nUw&s"
+      },
+      {
+        "name": "Wawona Golf Course",
+        "locationDet": "Yosemite",
+        "cityState": "Tuolumine Mountains, CA",
+        "opinion": "Looks like a nice golf course, outlooking the mountains of Yosemite National Park",
+        "golfCourseLink": "https://www.travelyosemite.com/things-to-do/golfing/",
+        "imageHeader": "https://www.nationalparkreservations.com/wp-content/uploads/2014/01/wawonagolf.jpg"
+      },
+      {
+        "name": "Dark Horse Golf Club",
+        "locationDet": "near Auburn",
+        "cityState": "Auburn, CA",
+        "golfCourseLink": "https://darkhorsegolf.com",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3pBuCHqYb5ayjxBi_zK7lDW0DpdROe5fFizJ8ZljeQ&s=10"
+      },
+      {
+        "name": "Cliffhangers Golf Course",
+        "locationDet": "a couple miles out of Springfield",
+        "cityState": "Hollister, MO",
+        "golfCourseLink": "https://bigcedar.com/golf/cliffhangers-golf-course/",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST3pBuCHqYb5ayjxBi_zK7lDW0DpdROe5fFizJ8ZljeQ&s=10"
+      },
+      {
+        "name": "Trail Creek Golf Course",
+        "locationDet": "",
+        "opinion": "I passed through this golf course and the views look incredible.",
+        "cityState": "Sun Valley, ID",
+        "golfCourseLink": "https://www.sunvalley.com/things-to-do/golf/",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCvmg8YMt-OdcnfUWWo6IK42MmLh8UMaj6R_aayywz_A&s=10"
+      },
+      {
+        "name": "White Clouds Golf Course",
+        "locationDet": "",
+        "opinion": "Same can be said to this golf course due to the close proximinity to Trail Creek, the views look incredible.",
+        "cityState": "Sun Valley, ID",
+        "golfCourseLink": "https://www.sunvalley.com/things-to-do/golf/",
+        "imageHeader": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb71o5KmmPhrzTv-24S8KRkOuhYAZIbWIhoRAglMGtXshDG7VQmzHEETeI&s=10"
+      }
     ]
   },
-  "spotify-playlists": [
+  "music": {
+    "musicOfTheWeek": [
+      {
+        "weekOf": "8/3/2026",
+        "embedUrl": "https://open.spotify.com/embed/track/3xwMjQriBVW0OGEvNKo9c0?si=c74743813e5a4f06"
+      },
+      {
+        "weekOf": "8/10/2026",
+        "embedUrl": "https://open.spotify.com/embed/track/5DZOKNtaoVEssXu9ltcMjx?utm_source=generator&si=ccec83dbdb0c46ef",
+        "desc": "My favorite song (along with <em>hate that i made you love me) from Ariana Grande's latest album <em>petal</em>."
+      },
+      {
+        "weekOf": "8/17/2026",
+        "embedUrl": "https://open.spotify.com/embed/track/3s4U7OHV7gnj42VV72eSZ6?si=d337566feb1f45b9",
+        "desc": "There is something adicting with this song to me because the moment I started hearing this, I couldn't stop."
+      },
+      {
+        "weekOf": "8/24/2026",
+        "embedUrl": "https://open.spotify.com/embed/track/1dNC1ccczsR8bbZuwOP0Z2?si=09570e586f1342b1",
+        "desc": "Decided to explore new songs on Insta and found this."
+      },
+      {
+        "weekOf": "8/31/2026",
+        "embedUrl": "https://open.spotify.com/embed/track/3oTuTpF1F3A7rEC6RKsMRz?si=46052980c2f2470d",
+        "desc": "Stumbled on this song while finding <em>Essence</em>. Haven't thought a lot about it until I saw it on <em>Today's Top Hits</em>."
+      }
+    ],
+    "songs": [
+      "https://open.spotify.com/embed/playlist/1a8aVQJK14O50ysieDYzZy?si=36b83a4b0db7434a&pt=1df39a00d0d7dbbe8014ea38b08df87c",
+      "https://open.spotify.com/embed/playlist/37i9dQZF1EIf0BQmkac8Lc?si=89808ccd209a4be3",
+      "https://open.spotify.com/embed/playlist/37i9dQZF1EQmg9rwHdCwFW?si=6eaa311749ba4ffa",
+      "https://open.spotify.com/embed/playlist/37i9dQZF1EQncLwOalG3K7?si=5777cd904f0d457c",
+      "https://open.spotify.com/embed/playlist/37i9dQZEVXbLRQDuF5jeBp?si=2071fde68beb4ad9"
+    ]
+  },
+  "overviewBioInfo": [
     {
-      "name": "the blend",
-      "desc": "a mix of different genres, a bit of nostalgia — a playlist you’ll love and enjoy :)",
-      "iframeLink": "https://open.spotify.com/embed/playlist/1a8aVQJK14O50ysieDYzZy?utm_source=generator&si=99493fd0b8c74044",
-      "link": "https://open.spotify.com/playlist/1a8aVQJK14O50ysieDYzZy?si=24f0637956ee4907&pt=2ce00dbbe94ff0b7c996c7ff02f4b480"
+      "mainHeader": "A High School Student Who Wants to Succeed",
+      "text": "(while making the most of it too)"
+    },
+    {
+      "mainHeader": "A High School Student Who Wants to Succeed",
+      "text": "(while making the most of it too)"
+    },
+    {
+      "card": true,
+      "header": "Bluebird Browser",
+      "text": "My mega project. All in one browser that is easy to use and will be more powerful than other browsers.",
+      "img": "https://github.com/coder230-dev/bluebird_browser/blob/main/images/icon2.png?raw=true",
+      "links": [
+        {
+          "label": "View GitHub Project",
+          "url": "https://github.com/coder230-dev/bluebird_browser/"
+        }
+      ]
+    },
+    {
+      "card": true,
+      "header": "My Projects",
+      "text": "I have created a lot since my 2 years. You can view them on my coding journey, or my GitHub Page",
+      "links": [
+        { "label": "Open Projects Page", "action": "openPage('projects')" },
+        {
+          "label": "View GitHub Page",
+          "url": "https://github.com/coder230-dev"
+        }
+      ]
     }
   ],
   "about_me": [
@@ -182,6 +305,110 @@
     {
       "header": "Right Now...",
       "text": "I love coding and working academically to acheive my dreams. I am keeping everything, including my life, organized. I can't wait what my future holds. For now, have to wait."
+    }
+  ],
+  "hobbiesInterests": [
+    {
+      "category": "Video Games",
+      "img": "https://store-images.s-microsoft.com/image/apps.35487.14622094146520822.dd10b45d-d4ba-4d81-97ac-16df982cba9f.63445f7b-95fc-4f4d-8aa3-67634e2bac53?h=862&format=jpg",
+      "name": "Fortnite",
+      "desc": "A multiplayer game where the goal is to win. And yes, this game is fun.",
+      "tags": ["Video Game"],
+      "url": "https://fortnite.com"
+    },
+    {
+      "category": "Video Games",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP6Pxzspy6Dvdtlam9LyKXebStf0-temRWuaeg1g0ZcUEkpZV-T8gyGf8&s=10",
+      "name": "Minecraft (Bedrock Edition)",
+      "desc": "Been playing a lot of creative, but have been getting to survival.",
+      "tags": ["Video Game"],
+      "url": "https://minecraft.net"
+    },
+    {
+      "category": "Video Games",
+      "img": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000042975/937afd0c84319831009b44c93369faf0a2c926a454809f73523df9bfb6cf6233",
+      "name": "Fall Guys",
+      "desc": "Been playing this game a lot lately. I feel like I'm getting better.",
+      "tags": ["Video Game"],
+      "url": "https://fallguys.com"
+    },
+    {
+      "category": "Video Games",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMmAsBbbbnpYiAwkYukXmGHyuzVxJJrqMz08eTcia6yHLCC4JNz_My2Xp1&s=10",
+      "name": "Rocket Leauge",
+      "desc": "Still getting better, but I still a rookie.",
+      "tags": ["Video Game"],
+      "url": "https://www.rocketleague.com/"
+    },
+    {
+      "category": "Video Games",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGPfrOzTvqRUExUUSfb2l2gDO6mSDPCXELUtP14H5mLw&s",
+      "name": "Stumble Guys",
+      "desc": "the altered version of Fall Guys. It's still fun tho.",
+      "tags": ["Video Game"],
+      "url": "https://www.stumbleguys.com/"
+    },
+    {
+      "category": "Places",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZGMldDAPwHpc7iiCAp3YFqgaGVakvpffK-WCpl0E7aA&s=10",
+      "name": "Downtown/Old Sacramento",
+      "desc": "I have no words. I love going there",
+      "tags": ["Places"]
+    },
+    {
+      "category": "Places",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCxeta8gnNERAYBXmgzeodZRdV-6niJ_72cRB2KkbprA&s",
+      "name": "Arden Fair Mall",
+      "desc": "Have been going there my whole life. I spend my day there if there isn't anything to do.",
+      "tags": ["Places"]
+    },
+    {
+      "category": "Places",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8SyiIsg2r_R3rIx7v7s9f1tdgbBTTqLVUyiM6DT2LtA&s=10",
+      "name": "Folsom, CA",
+      "desc": "A great place to relax. Especially the historic part of town. My favorite pizzeria is there",
+      "tags": ["Places"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUPxaeySyfoHbyfQEs9Tdz_zb4h4obCQPoNMLbzOt5tJ7QffCljbyYIEo&s=10",
+      "name": "Biking",
+      "desc": "especially on the American River Bike Trail.",
+      "tags": ["Outside Life"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://parkwayinn.com/wp-content/uploads/2024/09/iStock-1793190807.jpg",
+      "name": "Golfing",
+      "desc": "except when I get a really bad score.",
+      "tags": ["Outside Life"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9D6jpXBO5bNivIXMs_ZdSCd5bdTElWke6ZTqYsjEosw&s",
+      "name": "Riding on My Electric Scooter",
+      "desc": "one way to relax.",
+      "tags": ["Outside Life"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://cdn4.picryl.com/photo/2019/10/01/downtown-sacramento-californias-capital-city-seen-from-across-the-sacramento-8765fa-1024.jpg",
+      "name": "Exploring Sacramento",
+      "desc": "in case if I am missing a nice place.",
+      "tags": ["Outside Life"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC4jcANpM9n0CiDLXnzQasRNOVoYD-VDNx8sHcDn3XK3coD0GsZerXnLg&s=10",
+      "name": "Coding",
+      "desc": "Once I start coding, I can't stop. This page is one for example.",
+      "tags": ["Inside Life"]
+    },
+    {
+      "category": "outside-life",
+      "img": "https://makanacharters.com/wp-content/uploads/2020/10/Limahuli-Garden-Makana-Charters.jpg",
+      "name": "*Trying* to keep the Backyard Organized",
+      "tags": ["Inside Life"]
     }
   ]
 }
