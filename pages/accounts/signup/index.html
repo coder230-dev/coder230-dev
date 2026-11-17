@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../../images/bluebird_2027.png" type="image/x-icon">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=add_reaction,alternate_email,calendar_month,check_alert,check_circle,email,lock,password,person,security,storage" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -18,62 +19,68 @@
 
 <body>
     <div class="wrapper">
-        <div class="container" id="cont">
-            <div class="login-signup-selector">
-                <a href="../login/">Log In</a>
-                <a class="selected" href="#">Sign Up</a>
-            </div>
-            <h1 style="text-align: center;">
-                <i class="material-symbols-rounded main-icon">
-                    add_reaction
-                </i>
-            </h1>
-            <h1 class="main-header">Signup</h1>
-            <section id="signup-details-section">
-                <form id="signup-form" novalidate>
-                    <div class="input-cont">
-                        <span class="material-symbols-rounded">
-                            person
-                        </span>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="ex. Jane Doe" autocomplete="name">
-                    </div>
-                    <div class="input-cont">
-                        <span class="material-symbols-rounded">
-                            alternate_email
-                        </span>
-                        <label for="username">Username <span class="required">* Required</span></label>
-                        <input type="text" id="username" name="username" placeholder="ex. theLonelyGhost" required
-                            minlength="3" maxlength="18" autocomplete="username">
-                        <span id="username-status" class="username-status"></span>
-                        <span class="info">This is how you are going to appear throughout Bluebird. Usernames must have
-                            a minimum of 3 characters and a maximum of 18 characters.</span>
-                    </div>
-                    <div class="input-cont">
-                        <span class="material-symbols-rounded">
-                            lock
-                        </span>
-                        <label for="password">Password <span class="required">* Required</span></label>
-                        <input type="password" id="password" name="password" placeholder="Password" required
-                            minlength="8" autocomplete="new-password">
-                        <span id="password-status" class="username-status"></span>
-                        <span class="info">Password must have a minimum of 8 characters and include mixed case, numbers,
-                            and symbols for strong protection.</span>
-                    </div>
-                    <div class="input-cont">
-                        <span class="material-symbols-rounded">
-                            check_alert
-                        </span>
-                        <label for="confirm-password">Confirm Password <span class="required">* Required</span></label>
-                        <input type="password" id="confirm-password" name="confirm-password"
-                            placeholder="Confirm Password" required minlength="8" autocomplete="new-password">
-                    </div>
-                    <div class="btn-cont">
-                        <button class="submit-btn" id="submit-btn" type="submit">Sign up</button>
-                    </div>
-                </form>
-            </section>
-            <div class="bottom-links">Have an account? <a href="../login/l">Log In</a>
+        <div class="container">
+            <div class="container-content" id="cont">
+                <div class="login-signup-selector">
+                    <a href="../login/">Log In</a>
+                    <a class="selected" href="#">Sign Up</a>
+                </div>
+                <h1 style="text-align: center;">
+                    <i translate="no" class="material-symbols-rounded main-icon">
+                        add_reaction
+                    </i>
+                </h1>
+                <h1 class="main-header">Signup</h1>
+                <section id="signup-details-section">
+                    <form id="signup-form" novalidate>
+                        <div class="input-cont">
+                            <span class="material-symbols-rounded">
+                                person
+                            </span>
+                            <label for="name">Name</label>
+                            <input translate="no" type="text" id="name" name="name" placeholder="ex. Jane Doe"
+                                autocomplete="name">
+                        </div>
+                        <div class="input-cont">
+                            <span class="material-symbols-rounded">
+                                alternate_email
+                            </span>
+                            <label for="username">Username <span class="required">* Required</span></label>
+                            <input type="text" id="username" name="username" placeholder="ex. theLonelyGhost" required
+                                minlength="3" maxlength="18" autocomplete="username">
+                            <span id="username-status" class="username-status"></span>
+                            <span class="info">This is how you are going to appear throughout Bluebird. Usernames must
+                                have
+                                a minimum of 3 characters and a maximum of 18 characters.</span>
+                        </div>
+                        <div class="input-cont">
+                            <span class="material-symbols-rounded">
+                                lock
+                            </span>
+                            <label for="password">Password <span class="required">* Required</span></label>
+                            <input type="password" id="password" name="password" placeholder="Password" required
+                                minlength="8" autocomplete="new-password">
+                            <span id="password-status" class="username-status"></span>
+                            <span class="info">Password must have a minimum of 8 characters and include mixed case,
+                                numbers,
+                                and symbols for strong protection.</span>
+                        </div>
+                        <div class="input-cont">
+                            <span class="material-symbols-rounded">
+                                check_alert
+                            </span>
+                            <label for="confirm-password">Confirm Password <span class="required">*
+                                    Required</span></label>
+                            <input type="password" id="confirm-password" name="confirm-password"
+                                placeholder="Confirm Password" required minlength="8" autocomplete="new-password">
+                        </div>
+                        <div class="btn-cont">
+                            <button class="submit-btn" id="submit-btn" type="submit">Sign up</button>
+                        </div>
+                    </form>
+                </section>
+                <div class="bottom-links">Have an account? <a href="../login/l">Log In</a>
+                </div>
             </div>
         </div>
     </div>
@@ -111,26 +118,40 @@
             <div>
                 <a class="instagram-link-bio" href="https://instagram.com/bryant_san230" target="_blank"
                     rel="noopener noreferrer">
-                    <i class="fa-brands fa-instagram"></i>
+                    <i translate="no" class="fa-brands fa-instagram"></i>
                 </a>
                 <a class="threads-link-bio" href="https://threads.com/bryant_san230" target="_blank"
                     rel="noopener noreferrer">
-                    <i class="fa-brands fa-threads"></i>
+                    <i translate="no" class="fa-brands fa-threads"></i>
                 </a>
                 <a class="tiktok-link-bio" href="https://tiktok.com/@bryant230sacramento" target="_blank"
                     rel="noopener noreferrer">
-                    <i class="fa-brands fa-tiktok"></i>
+                    <i translate="no" class="fa-brands fa-tiktok"></i>
                 </a>
                 <a class="x-link-bio" href="https://x.com/bryant_san230" target="_blank" rel="noopener noreferrer">
-                    <i class="fa-brands fa-x-twitter"></i>
+                    <i translate="no" class="fa-brands fa-x-twitter"></i>
                 </a>
                 <a class="github-link-bio" href="https://github.com/coder230_dev" target="_blank"
                     rel="noopener noreferrer">
-                    <i class="fa-brands fa-github"></i>
+                    <i translate="no" class="fa-brands fa-github"></i>
                 </a>
             </div>
         </div>
     </footer>
+
+    <noscript>
+        <div class="noscript-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="8rem" width="8rem" fill="darkorange">
+                <path
+                    d="M7.5,15q-0.63,0-1.06-0.44T6,13.5v-1H7.5v1H9V9h1.5v4.5q0,0.63-0.44,1.06T9,15H7.5ZM13,15q-0.42,0-0.71-0.29T12,14V13h1.5v0.5h2v-1H13q-0.42,0-0.71-0.29Q12,11.93 12,11.5V10q0-0.43 0.29-0.71T13,9h3q0.43,0 0.71,0.29T17,10v1H15.5V10.5h-2v1H16q0.43,0 0.71,0.29T17,12.5V14q0,0.42-0.29,0.71T16,15H13Z" />
+            </svg>
+            <h1>Looks like your Browser cannot run JavaScript</h1>
+            <p>We need JavaScript to run. Without JavaScript enabled, you won't be able to login, create accounts, sign
+                in using OTP, reset your account, or access your dashboard.</p>
+            <h4>With that said:</h4>
+            <b>We asked nicely. The website asked nicely. Now we're both asking: please enable JavaScript.</b>
+        </div>
+    </noscript>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
     <script src="../databaseInfo.js"></script>

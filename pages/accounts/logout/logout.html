@@ -6,19 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signing out...</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" href="../../images/bluebird_2027.png" type="image/x-icon">
 </head>
 
 <body>
     <div class="wrapper">
         <div class="container" style="text-align: center;">
-            <h1 style="text-align: center;">
-                <div class="loader-ring main-icon" style="padding: 12px;">
-                </div>
-            </h1>
-            <h1 class="main-header">Signing out...</h1>
-            <p>You will be signed out from </p>
+            <div class="container-content">
+                <h1 style="text-align: center;">
+                    <svg viewBox="25 25 50 50" class="spinner" id="main-spinner">
+                        <circle r="20" cy="50" cx="50"></circle>
+                    </svg>
+                </h1>
+                <h1 class="main-header">Signing out...</h1>
+                <p>We're signing you out.</p>
+            </div>
         </div>
     </div>
+
+    <noscript>
+        <div class="noscript-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="8rem" width="8rem" fill="darkorange">
+                <path
+                    d="M7.5,15q-0.63,0-1.06-0.44T6,13.5v-1H7.5v1H9V9h1.5v4.5q0,0.63-0.44,1.06T9,15H7.5ZM13,15q-0.42,0-0.71-0.29T12,14V13h1.5v0.5h2v-1H13q-0.42,0-0.71-0.29Q12,11.93 12,11.5V10q0-0.43 0.29-0.71T13,9h3q0.43,0 0.71,0.29T17,10v1H15.5V10.5h-2v1H16q0.43,0 0.71,0.29T17,12.5V14q0,0.42-0.29,0.71T16,15H13Z" />
+            </svg>
+            <h1>Looks like your Browser cannot run JavaScript</h1>
+            <p>We need JavaScript to run. Without JavaScript enabled, you won't be able to login, create accounts, sign
+                in using OTP, reset your account, or access your dashboard.</p>
+            <h4>With that said:</h4>
+            <b>We asked nicely. The website asked nicely. Now we're both asking: please enable JavaScript.</b>
+        </div>
+    </noscript>
+
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
     <script src="../databaseInfo.js"></script>
     <script src="script.js"></script>

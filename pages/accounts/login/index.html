@@ -6,8 +6,9 @@
 	<meta name="robots" content="noindex, nofollow">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Login</title>
+	<title>Login - Bluebird Accounts</title>
 	<link rel="stylesheet" href="../style.css">
+	<link rel="shortcut icon" href="../../images/bluebird_2027.png" type="image/x-icon">
 	<link rel="stylesheet"
 		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=account_circle,arrow_forward,fingerprint" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
@@ -19,100 +20,65 @@
 <body>
 	<div class="wrapper">
 		<div class="container">
-			<div class="login-signup-selector">
-				<a class="selected" href="#">Log In</a>
-				<a href="../signup/">Sign Up</a>
+			<svg viewBox="25 25 50 50" class="spinner" id="main-spinner">
+				<circle r="20" cy="50" cx="50"></circle>
+			</svg>
+			<div class="container-content main-log-in" id="main-log-in-page" style="display: none;">
+
+				<div class="login-signup-selector">
+					<a class="selected" href="#">Log In</a>
+					<a href="../signup/">Sign Up</a>
+				</div>
+				<form id="user-section">
+					<h1 style="text-align: center;">
+						<img class="header-logo" src="./../../images/bluebird_2027.png" alt="Bluebird Logo">
+					</h1>
+					<h1 class="main-header">Welcome Back!</h1>
+					<div class="input-cont">
+						<label id="loginLabel">Email</label>
+						<input translate="no" id="loginInput" type="text" placeholder="Email" required>
+					</div>
+
+					<div class="input-cont">
+						<label>
+							Password
+						</label>
+						<input translate="no" type="password" id="passwordInput" placeholder="Password" required>
+					</div>
+					<div style="display: flex; justify-content: space-between; padding: 0 30px; margin-bottom: 70px;">
+						<label for="keepMeLoggedIn" style="display: flex; align-items: center; gap: 6px;">
+							<input translate="no" type="checkbox" id="keepMeLoggedIn">
+							Keep Me Logged In
+						</label>
+						<a href="../reset-access/index.html">Forgot Password?</a>
+					</div>
+					<div class="btn-cont">
+						<button class="submit-btn" type="submit" id="submit-btn">Log in</button>
+						<a class="alt-btn" href="../otp/index.html">Sign In with One Time Login</a>
+					</div>
+				</form>
+				<div class="bottom-links">No account? <a href="../signup/">Sign Up</a>
+				</div>
 			</div>
+		</div>
+		<div class="right-sect">
 
-			<section id="user-section">
-				<h1 style="text-align: center;">
-					<i class="material-symbols-rounded main-icon">
-						fingerprint
-					</i>
-				</h1>
-				<h1 class="main-header">Welcome Back!</h1>
-				<label for="loginWithEmail">
-					<input type="checkbox" id="loginWithEmail">
-					Login with email instead.
-				</label>
-
-				<div class="input-cont">
-					<label id="loginLabel">Username</label>
-					<input id="loginInput" type="text" placeholder="ex. theLonleyGhost" required>
-				</div>
-
-				<div class="input-cont">
-					<label>
-						Password
-					</label>
-					<input type="password" id="passwordInput" placeholder="Password" required>
-				</div>
-				<label for="keepMeLoggedIn" style="display: flex; align-items: center; gap: 6px;">
-					<input type="checkbox" id="keepMeLoggedIn">
-					Keep Me Logged In
-				</label>
-				<div class="btn-cont">
-					<button class="submit-btn" id="submit-btn">Log in</button>
-				</div>
-			</section>
-			<div class="bottom-links">No account? <a href="../signup/">Sign Up</a>
-			</div>
 		</div>
 	</div>
 
-	<footer>
-		<div style="grid-area: left;">
-			<b style="font-family: 'Special Gothic Expanded One';"> © 2026 Bluebird IPE by Bryant</b>
-			<hr>
-			<b>
-				"I love minimalism, of course."
-			</b>
-			<blockquote>
-				It’s not just about having fewer things — it’s about giving every element a purpose.
-				Minimalism is clarity disguised as simplicity. It’s the discipline of removing noise so the essentials
-				can breathe.
-
-				When you strip away the unnecessary, what’s left becomes sharper, more intentional, more honest.
-
-				Minimalism isn’t empty. It’s focused.
-				It’s the confidence to let a single detail carry the moment.
-
-				And once you start seeing the beauty in restraint, it becomes second nature — almost inevitable.
-
-				That’s why I say I love minimalism of course — because once you understand it, it stops being a style
-				and becomes a mindset.
-			</blockquote>
-			<p>Quote info expanded by AI, while the quote is made by me.</p>
+	<noscript>
+		<div class="noscript-container">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="8rem" width="8rem" fill="darkorange">
+				<path
+					d="M7.5,15q-0.63,0-1.06-0.44T6,13.5v-1H7.5v1H9V9h1.5v4.5q0,0.63-0.44,1.06T9,15H7.5ZM13,15q-0.42,0-0.71-0.29T12,14V13h1.5v0.5h2v-1H13q-0.42,0-0.71-0.29Q12,11.93 12,11.5V10q0-0.43 0.29-0.71T13,9h3q0.43,0 0.71,0.29T17,10v1H15.5V10.5h-2v1H16q0.43,0 0.71,0.29T17,12.5V14q0,0.42-0.29,0.71T16,15H13Z" />
+			</svg>
+			<h1>Looks like your Browser cannot run JavaScript</h1>
+			<p>We need JavaScript to run. Without JavaScript enabled, you won't be able to login, create accounts, sign
+				in using OTP, reset your account, or access your dashboard.</p>
+			<h4>With that said:</h4>
+			<b>We asked nicely. The website asked nicely. Now we're both asking: please enable JavaScript.</b>
 		</div>
-		<div style="grid-area: right;"></div>
-		<div style="grid-area: bottom;" class="socialize">
-			<div id="socialize-message">
-				<h3>Let's get social</h3>
-				<p>You know, it never hurts to talk</p>
-			</div>
-			<div>
-				<a class="instagram-link-bio" href="https://instagram.com/bryant_san230" target="_blank"
-					rel="noopener noreferrer">
-					<i class="fa-brands fa-instagram"></i>
-				</a>
-				<a class="threads-link-bio" href="https://threads.com/bryant_san230" target="_blank"
-					rel="noopener noreferrer">
-					<i class="fa-brands fa-threads"></i>
-				</a>
-				<a class="tiktok-link-bio" href="https://tiktok.com/@bryant230sacramento" target="_blank"
-					rel="noopener noreferrer">
-					<i class="fa-brands fa-tiktok"></i>
-				</a>
-				<a class="x-link-bio" href="https://x.com/bryant_san230" target="_blank" rel="noopener noreferrer">
-					<i class="fa-brands fa-x-twitter"></i>
-				</a>
-				<a class="github-link-bio" href="https://github.com/coder230_dev" target="_blank"
-					rel="noopener noreferrer">
-					<i class="fa-brands fa-github"></i>
-				</a>
-			</div>
-		</div>
-	</footer>
+	</noscript>
 
 	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 	<script src="../databaseInfo.js"></script>

@@ -6,7 +6,24 @@
 const SUPABASE_URL = 'https://akypcbfljgwhzjryztzo.supabase.co'
 const SUPABASE_ANON_KEY = 'sb_publishable_CbSkAPp5Chs5JfAgTLRNpw_q_z9Nd6N'
 
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
+    auth: {
+        flowType: "pkce",
+        autoRefreshToken: true,
+        persistSession: true,
+        detectSessionInUrl: true,
+        experimental: {
+            webauthn: true,
+            passkey: true,
+        }
+    }
+});
+
+window.addEventListener('offline', () => {
+    if (typeof displayNotification === 'function') {
+        displayNotification(`Your offline. Try reloading the page.   <button onclick="location.reload();">Reload</button>`, `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="24px" width="24px" fill="#FFFFFF"><path d="M19.75,22.6l-9.4-9.45q-1.18,0.28-2.19,0.83T6.35,15.35L4.25,13.2q0.8-0.8 1.73-1.4t1.97-1.05L5.7,8.5Q4.68,9.02 3.79,9.66T2.1,11.1L0,8.95q0.8-0.8 1.66-1.44T3.5,6.3L1.4,4.2L2.8,2.8L21.2,21.2l-1.45,1.4Zm-9.52-2.34Q9.5,19.52 9.5,18.5q0-1.05 0.73-1.77T12,16t1.78,0.73T14.5,18.5q0,1.02-0.72,1.76T12,21t-1.77-0.74Zm7.68-5.21q-0.43-0.42-0.73-0.72T16.45,13.6L12.85,10q2.02,0.2 3.79,1.02t3.11,2.18L17.9,15.05Zm4-3.95q-1.93-1.93-4.46-3.01T12,7q-0.52,0-1.01,0.04T10,7.15L7.45,4.6q1.1-0.3 2.24-0.45T12,4q3.55,0 6.63,1.32T24,8.95L21.9,11.1Z"/></svg>`, 9999999999, 100)
+    }
+})
 
 // Local Account
 
@@ -218,6 +235,7 @@ async function verifyLocalAccount(username, password) {
  * @param {string} columns
  * @returns {Promise<any[]|[]>}
  */
+
 async function fetchTable(table, columns = '*') {
     const { data, error } = await supabaseClient
         .from(table)
@@ -273,6 +291,19 @@ async function fetchRowBy(table, column, value) {
     return data
 }
 
+async function fetchRow(table, column, value) {
+    const { data, error } = await supabaseClient
+        .from(table)
+        .select('*')
+        .eq(column, value)
+
+    if (error) {
+        console.error(`Supabase fetchRowBy error for ${table}.${column}:`, error)
+        return null
+    }
+
+    return data
+}
 
 const notificationQueue = [];
 let isDisplaying = false;

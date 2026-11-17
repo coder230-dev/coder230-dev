@@ -278,7 +278,7 @@ function accountTypeChooser() {
 
         cont.innerHTML = `
             <h1 style="text-align: center;">
-                <i class="material-symbols-rounded main-icon">
+                <i translate="no" class="material-symbols-rounded main-icon">
                     storage
                 </i>
             </h1>
@@ -297,14 +297,6 @@ function accountTypeChooser() {
                     It also allows you to use Bluebird Browser and other services with your personalized setup on any device you sign in to, 
                     including moving your bookmarks, preferences, and browsing data seamlessly.
                 </p>
-        
-                <b>In summary...</b>
-                <ul>
-                    <li>Syncs your data across devices</li>
-                    <li>Stores your profile, settings, bookmarks, and friends list in the cloud</li>
-                    <li>Keeps your personalized setup on any device you sign in to</li>
-                    <li>Enables social features like friends and sharing</li>
-                </ul>
                 <p>* Your account will become a Bluebird ID Account if space is avaiable.</p>
             </label>
         </div>
@@ -321,14 +313,6 @@ function accountTypeChooser() {
                     Ideal for privacy‑focused users or offline use. 
                     Local Profiles do not support cross‑device sync or social features.
                 </p>
-        
-                <b>In summary...</b>
-                <ul>
-                    <li>Stores all data privately on this device</li>
-                    <li>Does not sync across devices</li>
-                    <li>Ideal for offline or privacy‑focused use</li>
-                    <li>No social or friend features</li>
-                </ul>
             </label>
         </div>
         <p>* You may switch accounts at any time. Some features may be limited due to age or other factors. <a href="#">View Private Policy</a></p>
@@ -359,7 +343,7 @@ function showDobScreen() {
     const dobValue = savedData.dateOfBirth || '';
     cont.innerHTML = `
         <h1 style="text-align: center;">
-            <i class="material-symbols-rounded main-icon">calendar_month</i>
+            <i translate="no" class="material-symbols-rounded main-icon">calendar_month</i>
         </h1>
         <h1 class="main-header">Your Date of Birth</h1>
         <p style="text-align: center;">Enter your date of birth so we can personalize your experience and keep your account secure.</p>
@@ -420,7 +404,7 @@ function showSecurityScreen() {
     const cont = document.getElementById('cont');
     cont.innerHTML = `
         <h1 style="text-align: center;">
-            <i class="material-symbols-rounded main-icon">
+            <i translate="no" class="material-symbols-rounded main-icon">
                 security
             </i>
         </h1>
@@ -639,7 +623,7 @@ function showEmailVerificationScreen(email) {
     const cont = document.getElementById('cont');
     cont.innerHTML = `
         <h1 style="text-align: center;">
-            <i class="material-symbols-rounded main-icon">email</i>
+            <i translate="no" class="material-symbols-rounded main-icon">email</i>
         </h1>
         <h1 class="main-header">Verify Your Email</h1>
         <p style="text-align: center;">We sent a verification link to <strong>${email}</strong>. Open it and verify your email, then continue below.</p>
@@ -721,12 +705,13 @@ function finishSignupFlow() {
     const cont = document.getElementById('cont');
     cont.innerHTML = `
         <h1 style="text-align: center;">
-            <i class="material-symbols-rounded main-icon">check_circle</i>
+            <i translate="no" class="material-symbols-rounded main-icon">check_circle</i>
         </h1>
         <h1 class="main-header">All Set!</h1>
         <p style="text-align: center;">Your account setup is complete and you are logged in.</p>
         <p style="text-align: center;">You can now continue using Bluebird with your new account.</p>
         <p style="text-align: center;">You will be redirected back in a few seconds.</p>
+        <button type="submit" onclick="history.back()">Back</button>
     `;
 
     setTimeout(() => {
